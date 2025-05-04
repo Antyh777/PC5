@@ -35,6 +35,6 @@ public class Triangle {
 
     // Método para calcular el área (ERROR INTENCIONAL: debería dividirse por 2)
     public double calculateArea() {
-        return (base * height) / 3;  // ERROR: fórmula incorrecta
+        return (base * height) / 2;  // ERROR: fórmula incorrecta
     }
 }
